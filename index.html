@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>헤라 따라만들기</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="inner">
+            <h1>
+                <a href="/">
+                    <img src="./images/logo-white.svg" alt="헤라">
+                </a>
+            </h1>
+            <nav class="gnb">
+                <ul>
+                    <li><a href="">헤라 스토리</a></li>
+                    <li><a href="">메이크업</a></li>
+                    <li><a href="">스킨케어</a></li>
+                    <li><a href="">프래그런스</a></li>
+                    <li><a href="">#HERA</a></li>
+                </ul>
+            </nav>
+            <div class="utils">
+                <a href="">
+                    <img src="./images/user.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="./images/search.svg" alt="">
+                </a>
+            </div>
+
+        </div>
+    </header>
+    <main id="content">
+        <section class="main_visual">
+            <h2 class="blind">main visual</h2>
+            <div class="main_visual_slide swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide itm itm01">
+                        <div class="txt">
+                            <strong>ROUGE CLASSY</strong>
+                            <p>SEOUL RED</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide itm itm02">
+                        <div class="txt">
+                            <strong>헤라 NEW 브랜드 캠페인</strong>
+                            <p>HOW FAR CAN YOU GO</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide itm itm03">
+                        <div class="txt">
+                            <strong>헤라 2024 홀리데이 리미티드</strong>
+                            <p>드림스케이프 보야지 컬렉션</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="arrows">
+                <button class="prev">
+                    <img src="./images/chevron-left.svg" alt="">
+                </button>
+                <button class="next">
+                    <img src="./images/chevron-right.svg" alt="">
+                </button>
+            </div>
+
+            <div class="wheel">
+                <span>scroll</span>
+            </div>
+        </section>
+        <section class="main_content default">
+            <div class="title">
+                <h2>BEST SELLER</h2>
+                <p>최근 헤라에서 가장 잘 팔리고 있는 아이템들.</p>
+            </div>
+            <div class="inner">
+                <ul class="best_tab_menu">
+                    <li><button class="on">MAKEUP</button></li>
+                    <li><button>SKINCARE</button></li>
+                </ul>
+                <div class="best_tab_content">
+                    <div class="con on">
+                        <a href="" class="itm" data-num="1">
+
+                            <figure>
+                                <img src="./images/main_content_011.png" alt="">
+                            </figure>
+                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
+                        </a>
+                        <a href="" class="itm" data-num="2">
+                            <figure>
+                                <img src="./images/main_content_012.png" alt="">
+                            </figure>
+                            <strong>블랙 쿠션 파운데이션 블랙 쿠션 파운데이션 SPF34/PA++</strong>
+                        </a>
+                        <a href="" class="itm" data-num="3">
+                            <figure>
+                                <img src="./images/main_content_013.png" alt="">
+                            </figure>
+                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
+                        </a>
+                        <a href="" class="itm" data-num="4">
+                            <figure>
+                                <img src="./images/main_content_014.png" alt="">
+                            </figure>
+                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
+                        </a>
+                    </div>
+                    <div class="con">
+                        <a href="" class="itm" data-num="1">
+                            <figure>
+                                <img src="./images/main_content_021.png" alt="">
+                            </figure>
+                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
+                        </a>
+                        <a href="" class="itm" data-num="2">
+                            <figure>
+                                <img src="./images/main_content_022.png" alt="">
+                            </figure>
+                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
+                        </a>
+                        <a href="" class="itm" data-num="3">
+                            <figure>
+                                <img src="./images/main_content_023.png" alt="">
+                            </figure>
+                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
+                        </a>
+                        <a href="" class="itm" data-num="4">
+                            <figure>
+                                <img src="./images/main_content_024.png" alt="">
+                            </figure>
+                            <strong>블랙 쿠션 파운데이션 SPF34/PA++</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="main_product default">
+            <div class="title">
+                <h2>main product</h2>
+            </div>
+            <ul class="menu_wrap">
+                <li><a href="">FACE</a></li>
+                <li><a href="">LIP</a></li>
+                <li><a href="">SKINCARE</a></li>
+            </ul>
+        </section>
+        <section class="main_promotion default">
+            <div class="inner">
+                <div class="desc">
+                    <div class="title">
+                        <h2>main promotion</h2>
+                        <p>헤라 홍보 동영상</p>
+                    </div>
+                    <div class="control">
+                        <button class="play"><img src="./images/play.svg" alt=""></button>
+                        <button class="pause"><img src="./images/pause.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="movie">
+
+                    <video src="./images/hera_movie.mp4" muted playsinline loop></video>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="main_movie default">
+            <div class="title">
+                <h2>main promotion</h2>
+                <p>[HERA] GLOW FLOWS IN YOU ｜NEW GLOW LASTING FOUNDATION ｜NEW 글로우 래스팅 파운데이션</p>
+
+                <div class="control">
+                    <button class="play">
+                        <img src="./images/play.svg" alt=""></button>
+                    <button class="pause">
+                        <img src="./images/pause.svg" alt=""></button>
+                    <button class="fullscreen">
+                        <img src="./images/airplay.svg" alt=""></button>
+                </div>
+                <div id="bgndVideo" class="player" data-property="">
+                    <span class="blind">홍보비디오</span>
+                </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="inner">
+            <div class="sns">
+                <a href="" target="_blank"></a>
+                <img src="./images/instagram.svg" alt="">
+                <a href="" target="_blank"></a>
+                <img src="./images/facebook.svg" alt="">
+                <a href="" target="_blank"></a>
+                <img src="./images/youtube.svg" alt="">
+            </div>
+            <ul class="customer">
+                <li><a href="">서비스이용약관</a></li>
+                <li><a href="" class="b">개인정보처리방침</a></li>
+                <li><a href="">영상정보처리방침</a></li>
+                <li><a href="">뷰티포인트</a></li>
+                <li><a href="">사이트맵</a></li>
+            </ul>
+
+
+            <p class="tel">고객상담팀(수신자요금부담) 080-023-5454 (상담시간 월~금 : AM 09:00 ~ PM 06:00)</p>
+            <address>
+                &copy; AMOREPACIFIC CORPORATION. All rights reserved.
+            </address>
+
+            <div class="flk">
+                <select id="flk">
+                    <option value="">Family Link</option>
+                    <option value="http://naver.com">naver</option>
+                    <option value="http://daum.net">daum</option>
+                </select>
+            </div>
+        </div>
+    </footer>
+    <button class="to_top">
+        <img src="./images/arrow-up.svg" alt="">
+
+    </button>
+</body>
+
+</html>
