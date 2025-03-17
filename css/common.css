@@ -16,6 +16,16 @@ button {
     margin: 0 auto;
 }
 
+@media (max-width:1442px) {
+    .inner {
+        max-width: 1410px;
+        margin: 0 auto;
+        /* r */
+        margin: 0 16px;
+
+    }
+}
+
 .default {
     padding: 120px 0;
 }
@@ -35,4 +45,40 @@ button {
     margin-top: 8px;
     font-size: 16px;
     font-weight: 400;
+}
+
+@media (max-width:1442px) {
+
+    .default {
+        padding: 120px 0;
+    }
+
+    .default .title {
+        max-width: var(--inner-size);
+        margin: 0 auto;
+        margin-bottom: 40px;
+
+        /* r */
+        margin: 0 16px;
+        margin-bottom: 40px;
+
+
+    }
+
+    .default .title h2 {
+        font-size: 36px;
+        font-weight: 600;
+
+
+    }
+
+    .default .title .desc {
+
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 16px;
+        line-height: 1.5;
+
+    }
+
 }
